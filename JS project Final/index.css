@@ -1,0 +1,105 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    background-image: linear-gradient( to top, #ffda77, #ffa45b );
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+header{
+    font-weight: bolder;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.displaybtn{
+    position: relative;
+    margin: 1%;
+    border-radius: 10px;
+    width: 5vw;
+    border: 2px solid green;
+    background-color: aquamarine;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+    text-align: center;
+    display: inline-block;
+}
+
+.minhead{
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#disp {
+    color: black;
+    font-size: 20px;
+}
+
+.largebtn{
+    position: relative;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    width: 30vw;
+    border: 2px solid green;
+    background-color: aquamarine;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+    text-align: center;
+    display: block;
+}
+
+
+#textdisplay{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.typetext{
+    position: relative;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 40vw;
+    border: 2px solid green;
+    background-color: burlywood;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+    display: block;
+}
+
+#input{
+    color: gray;
+    font-size: 20px;
+    text-align:left;
+}
+
+#input:hover {
+    cursor: pointer;
+}
+
+#btn {
+    background-color: grey;
+    width: 75px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #1D3C6A;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
